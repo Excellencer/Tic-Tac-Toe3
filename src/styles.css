@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+.board-row {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.board-col {
+  width: 60px;
+  height: 60px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  font-size: 40px;
+  background-color: #424242;
+  color: gray;
+}
+
+.board-col:hover {
+  background-color: #9e9e9e;
+}
